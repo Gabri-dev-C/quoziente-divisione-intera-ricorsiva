@@ -61,6 +61,7 @@ int divisione(int dividendo, int divisore){
 
 # Funzionamento
 
+```text
 divisione(25, 5)
 = 1 + divisione(20, 5)
 = 1 + (1 + divisione(15, 5))
@@ -69,6 +70,7 @@ divisione(25, 5)
 = 1 + (1 + (1 + (1 + (1 + divisione(0, 5)))))
 = 1 + (1 + (1 + (1 + (1 + 0))))
 = 5
+```
 
 # Autore
 
